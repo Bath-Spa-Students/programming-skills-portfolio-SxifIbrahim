@@ -5,9 +5,13 @@ glossary = {
     "Loop": "A control structure that allows for repeated execution of a block of code.",
     "Function": "A reusable block of code that performs a specific task.",
     "Conditional Statement": "A statement that executes different code blocks based on a specified condition.",
-    "List": "An ordered collection of elements, often of the same data type."
+    "List": "An ordered collection of elements, often of the same data type.",
+    "Dictionary": "A collection of key-value pairs.",
+    "Tuple": "An immutable ordered collection of elements.",
+    "Boolean": "A data type representing True or False values.",
+    "String": "A sequence of characters.",
+    "Module": "A Python file containing reusable code and definitions."
 }
 
-# Print each word and its meaning with neat formatting
 for term, meaning in glossary.items():
     print(f"{term}:\n{meaning}\n")
