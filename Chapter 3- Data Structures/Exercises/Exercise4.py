@@ -1,4 +1,9 @@
-## Exercise 4: Guest List
+## Exercise 4: Guest List :ballot_box_with_check:
+
+""" 
+If you could invite anyone, living or deceased, to dinner, who would you invite? Make a list that includes at least three people you’d
+like to invite to dinner. Then use your list to print a message to each person, invitingthem to dinner. 
+"""
 
 invitees = [
     {"name": "Mariez Cauyan", "message": "Dear Cauyan, I am truly fascinated by your groundbreaking contributions to physics and your profound insights into the nature of the universe. It would be an absolute honor to have you join me for dinner to discuss your theories, philosophy, and your remarkable journey through the world of science. Your presence would be inspiring beyond measure."},
