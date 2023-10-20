@@ -1,11 +1,10 @@
-# the Value of pi
+## Exercise 5: Compute area of Circle :ballot_box_with_check:
+
+""" 
+Write a Python program which accepts the radius of a circle from the user and compute the area. 
+"""
+
 pi = 3.14
-
-# the imput from the user
 r = float(input("Input the radius of the circle : "))
-
-# Compute the area from radius of a circle given by the user
 calculatearea = str(pi * r**2);
-
-# Print
 print ("The are of the circle with radius " + str(r) + "is: " + calculatearea)
