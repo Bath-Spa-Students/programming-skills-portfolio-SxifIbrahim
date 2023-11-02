@@ -5,6 +5,10 @@ Write a Python program to display the current date and time.
 """
 
 import datetime
+
+# Get the Current Date and Time
 now = datetime.datetime.now()
 print ("Current date and time : ")
-print (now.strftime("%Y-%m-%d %H:%M:%S"))
+
+# Print the Date and Time
+print (now.strftime("%Y-%m-%d %H:%M:%S"))   
