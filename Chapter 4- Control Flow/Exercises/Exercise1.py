@@ -8,15 +8,13 @@ Imagine an alien was just shot down in a game. Create a variable called alien_co
 """
 
 # Working Version
-
 alien_color = 'green'
 
 if alien_color == 'green':
-    print("Congratulations! You just earned 5 points.")
+    print("Congratulations! You earned 5 points.")
 
 # Failing Version
-
 alien_color = 'red'
 
 if alien_color == 'green':
-    print("Congratulations! You just earned 5 points.")
+    print("Congratulations! You earned 5 points.")

@@ -11,6 +11,7 @@ Write an if-elif-else chain that determines a person’s stage of life. Set a va
 •If the person is age 65 or older, print a message that the person is an elder.
 """
 
+# Set the value for the variable age
 age = 18  
 
 if age < 2:

@@ -9,19 +9,17 @@ Choose a color for an alien as you did in Exercise 5-3, and write an if-else cha
 """
 
 # Alien's color is green
-
 alien_color = 'green'  
 
 if alien_color == 'green':
-    print("The player just earned 5 points for shooting the alien.")
+    print("The player earned 5 points for shooting the alien.")
 else:
-    print("The player just earned 10 points.")
+    print("The player earned 10 points.")
 
 # Alien's color is not green
-
 alien_color = 'red'
 
 if alien_color == 'green':
-    print("The player just earned 5 points for shooting the alien.")
+    print("The player earned 5 points for shooting the alien.")
 else:
-    print("The player just earned 10 points.")
+    print("The player earned 10 points.")

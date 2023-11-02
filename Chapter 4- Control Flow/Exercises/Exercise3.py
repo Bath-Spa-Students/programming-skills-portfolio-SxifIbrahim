@@ -9,8 +9,8 @@ Turn your if-else chain from Exercise 5-4 into an if-elifelse chain.
 •Write three versions of this program, making sure each message is printed for the appropriate color alien.
 """
 
+# Alien's color is green
 alien_color = 'green'
-
 if alien_color == 'green':
     print("The player earned 5 points.")
 elif alien_color == 'yellow':
@@ -18,8 +18,8 @@ elif alien_color == 'yellow':
 else:
     print("The player earned 15 points.")
 
+# Alien's color is yellow
 alien_color = 'yellow'
-
 if alien_color == 'green':
     print("The player earned 5 points.")
 elif alien_color == 'yellow':
@@ -27,8 +27,8 @@ elif alien_color == 'yellow':
 else:
     print("The player earned 15 points.")
 
+# Alien's color is red
 alien_color = 'red'
-
 if alien_color == 'green':
     print("The player earned 5 points.")
 elif alien_color == 'yellow':

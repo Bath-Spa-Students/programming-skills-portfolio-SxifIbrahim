@@ -8,25 +8,27 @@ Make a list of your favorite fruits, and then write a series of independent if s
 should print a statement,such as You really like bananas!
 """
 
-favorite_fruits = ["bananas", "strawberries", "mangoes"]
+# Make a list of your three favorite fruits
+favorite_fruits = ["bananas", "strawberries", "mangoes", "apples"]
 
+# Check for specific fruits in the list
 if "bananas" in favorite_fruits:
-    print("I really love bananas!")
+    print("I enjoy bananas!")
 
 if "strawberries" in favorite_fruits:
-    print("I really love strawberries!")
+    print("I enjoy strawberries!")
 
 if "apples" in favorite_fruits:
-    print("I really love apples!")
+    print("I enjoy apples!")
 
 if "mangoes" in favorite_fruits:
-    print("I really love mangoes!")
+    print("I enjoy mangoes!")
 
 if "kiwis" in favorite_fruits:
-    print("I really love kiwis!")
+    print("I enjoy kiwis!")
 
 if "pineapple" in favorite_fruits:
-    print("I really love kiwis!")
+    print("I enjoy kiwis!")
 
 if "avocados" in favorite_fruits:
-    print("I really love kiwis!")
+    print("I enjoy kiwis!")
