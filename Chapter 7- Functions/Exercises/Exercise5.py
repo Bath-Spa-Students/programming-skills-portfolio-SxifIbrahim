@@ -13,8 +13,3 @@ def describe_city(city, country="Unknown"):
 describe_city("Abu Dhabi", "UAE")
 describe_city("British Columbia", "Canada")
 describe_city("Philippines") 
-
-def func(**kwargs):
-  print(kwargs["zero"])
-
-func(a = 0, zero = 8)
