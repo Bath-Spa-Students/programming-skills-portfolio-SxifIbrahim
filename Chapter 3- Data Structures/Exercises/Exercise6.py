@@ -10,16 +10,24 @@ them know you’re sorry you can’t invite them to dinner.
 •Use del to remove the last two names from your list, so you have an empty list. Print your list to make sure you actually have an empty list at the end of your program.
 """
 
+# Create a list of people to invite to dinner
 invitees = ["Joshua Gofulco", "Gwyneth Pastolero", "Alekzandra Balse"]
 
-print("Due to the change in plans, I can invite only two people for dinner.")
+# Print an invitation message for each person
+for person in invitees:
+    print(f"Dear {person}, I would like to invite you to dinner.")
 
+print("\nSorry, the dinner table won't arrive in time, and I can only invite two people.\n")
+
+# Use pop() to remove guests from the list and apologize to them
 while len(invitees) > 2:
     removed_guest = invitees.pop()
-    print(f"Sorry, {removed_guest}, I can't invite you to dinner this time.")
+    print(f"Sorry, {removed_guest}, I can't invite you to dinner.")
 
-for invitee in invitees:
-    print(f"{invitee}, you are still invited to dinner.")
+# Print an invitation message for the two remaining guests
+for person in invitees:
+    print(f"Dear {person}, you're still invited to dinner.")
 
+# Use del to remove the last two names from the list
 del invitees[:]
-print("\nFinal guest list:", invitees)
+print("\nThe list of guests is now empty:", invitees)

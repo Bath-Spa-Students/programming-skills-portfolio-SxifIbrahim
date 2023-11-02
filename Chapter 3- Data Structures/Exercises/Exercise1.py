@@ -5,8 +5,10 @@ Store the names of a few of your friends in a list called names. Print each pers
 time. 
 """
 
+# Create a list of names
 names = ['Seif', 'Mariez', 'Joshua', 'Sam', 'Yanni', 'Alekzandra', 'Mica']
 
+# Print each person's name one at a time
 print(names[0])
 print(names[1])
 print(names[2])

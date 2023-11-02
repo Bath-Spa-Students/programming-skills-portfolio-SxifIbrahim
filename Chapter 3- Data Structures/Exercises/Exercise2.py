@@ -6,8 +6,10 @@ printing each person's name, print a message to them. The text of each message s
 personalized with the person's name. 
 """
 
+# Create a list of names
 names = ['Seif', 'Mariez', 'Joshua', 'Sam', 'Yanni', 'Alekzandra', 'Mica']
 
+# Print a personalized message for each person
 msg = "Hello, " + names[0].title() + "!"
 print(msg)
 
