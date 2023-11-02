@@ -5,8 +5,14 @@ Modify the make_shirt() function so that shirts are large by default with a mess
 medium shirt with the default message, and a shirt of any size with a different message.
 """
 
-def make_shirt(size='large', message='I love reading Books'):
+def make_shirt(size='large', message='I love Reading Books'):
     print(f"Creating a {size} shirt with the message: {message}")
 
+# Create a large shirt with the default message
 make_shirt()
-make_shirt(size='meduim', message='I am a Book Worm!')
+
+# Create a medium shirt with the default message
+make_shirt(size='meduim')
+
+# Create a small shirt with a custom message
+make_shirt("Small", "I am a Book Worm!")

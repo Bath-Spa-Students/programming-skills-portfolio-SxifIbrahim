@@ -9,5 +9,8 @@ arguments to make a shirt. Call the function a second time using keyword argumen
 def make_shirt(size, message):
     print(f"Creating a {size} shirt with the message: {message}")
 
+# Call the function with positional arguments
 make_shirt("medium", "I love you!")
+
+# Call the function with keyword arguments
 make_shirt(size="large", message="Game Enjoyer")

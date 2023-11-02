@@ -9,6 +9,7 @@ Call your function for three different cities, at least one of which is not in t
 def describe_city(city, country="Unknown"):
     print(f"{city} is in {country}.")
 
+# Call the function for different cities and countries
 describe_city("Abu Dhabi", "UAE")
 describe_city("British Columbia", "Canada")
 describe_city("Philippines") 
