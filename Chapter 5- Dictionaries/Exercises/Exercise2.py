@@ -10,6 +10,7 @@ the word on one line and then print its meaning indented on a second line. Use t
 each word-meaning pair in your output.
 """
 
+# Create a glossary (dictionary) of programming terms and their meanings    
 glossary = {
     "Variable": "A named storage location in memory that can hold data.",
     "Loop": "A control structure that allows for repeated execution of a block of code.",
@@ -18,5 +19,6 @@ glossary = {
     "List": "An ordered collection of elements, often of the same data type."
 }
 
+# Print each word and its meaning with a newline character between them
 for term, meaning in glossary.items():
     print(f"{term}:\n{meaning}\n")

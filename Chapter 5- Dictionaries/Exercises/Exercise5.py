@@ -6,13 +6,15 @@ owner's name. Store these dictionaries in a list called pets. Next, loop through
 each pet.
 """
 
+# Create a list of dictionaries, each representing a different pet
 pets = [
     {"kind": "Dog", "owner": "Mairez"},
     {"kind": "Cat", "owner": "Seif"},
-    {"kind": "Fish", "owner": "Gwyneth"},
-    {"kind": "Parrot", "owner": "Joshua"},
+    {"kind": "Hamster", "owner": "Gwyneth"},
+    {"kind": "Bird", "owner": "Joshua"},
 ]
 
+# Loop through the list and print information about each pet
 for pet in pets:
     print(f"Kind of animal: {pet['kind']}")
     print(f"Owner's name: {pet['owner']}")

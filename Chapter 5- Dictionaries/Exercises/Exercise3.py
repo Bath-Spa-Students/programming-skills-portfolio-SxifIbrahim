@@ -6,6 +6,7 @@ calls with a loop that runs through the dictionary’s keys and values. When you
 to your glossary.When you run your program again, these new words and meanings should automatically be included in the output.
 """
 
+# Create a glossary (dictionary) of programming terms and their meanings
 glossary = {
     "Variable": "A named storage location in memory that can hold data.",
     "Loop": "A control structure that allows for repeated execution of a block of code.",
@@ -19,5 +20,6 @@ glossary = {
     "Module": "A Python file containing reusable code and definitions."
 }
 
+# Print words and their meanings using a loop
 for term, meaning in glossary.items():
     print(f"{term}:\n{meaning}\n")
