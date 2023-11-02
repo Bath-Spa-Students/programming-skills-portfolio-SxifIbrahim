@@ -4,9 +4,9 @@ variables and then store the result in variable a. Print the value of a.
 """
 
 # Assign values to variables x, y, and z
-x = 34
-y = 21
-z = 52
+x = 10
+y = 20
+z = 30
 
 # Add the values of x, y, and z and store the result in variable a
 a = x + y + z
