@@ -7,13 +7,17 @@ Use a variable to represent a person’s name, and include some whitespace chara
 Then print the name using each of the three stripping functions, lstrip(), rstrip(), and strip(). 
 """
 
-name = "\tHannah Mei Gwyneth Pastolero\n"
+# Define a person's name with whitespace characters
+name = "\t   Hannah Mei Gwyneth Pastolero\n"
 
-print("Unmodified:")
-print(name)
-print("\nUsing lstrip():")
-print(name.lstrip())
-print("\nUsing rstrip():")
-print(name.rstrip())
-print("\nUsing strip():")
-print(name.strip())
+# Print the name with whitespace
+print("Name with whitespace: ", name)
+
+# Strip whitespace from the left (left-justified)
+print("Name after lstrip():", name.lstrip())
+
+# Strip whitespace from the right (right-justified)
+print("Name after rstrip():", name.rstrip())
+
+# Strip whitespace from both ends
+print("Name after strip():", name.strip())

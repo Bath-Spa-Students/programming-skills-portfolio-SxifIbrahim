@@ -5,6 +5,11 @@ Use a variable to represent your favorite number. Then,using that variable, crea
 that message. 
 """
 
+# Define your favorite number in a variable
 fav_num = 105
+
+# Create a message revealing your favorite number
 msg = f"My favorite number is {fav_num}."
+
+# Print the message
 print(msg)
