@@ -18,6 +18,7 @@ while sandwich_orders:
     print(f"I made your {current_order} sandwich.")
     finished_sandwiches.append(current_order)
 
+# Print a message listing each sandwich that was made
 print("\nList of finished sandwiches:")
 for sandwich in finished_sandwiches:
     print(sandwich)

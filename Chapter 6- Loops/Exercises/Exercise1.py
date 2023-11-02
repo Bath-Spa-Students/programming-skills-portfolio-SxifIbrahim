@@ -5,6 +5,7 @@ Write a loop that prompts the user to enter a series of pizza toppings until the
 print a message saying you’ll add that topping to their pizza.
 """
 
+# Initialize an empty list to store pizza toppings
 toppings = []
 
 while True:
@@ -16,6 +17,7 @@ while True:
     print(f"I'll add {topping} to your pizza.")
     toppings.append(topping)
 
+# Print the list of selected pizza toppings
 if toppings:
     print("You've chosen the following pizza toppings:")
     for topping in toppings:

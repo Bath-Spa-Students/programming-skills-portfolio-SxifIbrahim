@@ -5,4 +5,4 @@ Write a loop that never ends, and run it. (To end the loop, press ctrl-C or clos
 """
 
 while True:
-    print("Looping.....")
+    print("Looping...")

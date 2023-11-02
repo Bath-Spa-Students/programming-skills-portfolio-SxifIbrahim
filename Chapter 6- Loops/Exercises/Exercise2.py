@@ -8,12 +8,10 @@ age, and then tell them the cost of their movie ticket.
 
 while True:
     age = input("Please enter your age (or 'quit' to exit): ")
-
     if age.lower() == 'quit':
         break 
 
     age = int(age) 
-
     if age < 3:
         print("Your ticket is free.")
     elif 3 <= age <= 12:
