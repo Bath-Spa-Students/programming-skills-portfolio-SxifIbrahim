@@ -12,4 +12,4 @@ def describe_city(city, country="Unknown"):
 # Call the function for different cities and countries
 describe_city("Abu Dhabi", "UAE")
 describe_city("British Columbia", "Canada")
-describe_city("Philippines") 
+describe_city("Manilla") 
