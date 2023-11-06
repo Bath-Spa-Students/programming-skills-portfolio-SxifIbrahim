@@ -8,11 +8,11 @@ the total of all the courses marks is 500 or take the total marks from the user 
 total_marks = 0
 
 # Input the marks for each course
-course1 = int(input("Enter marks for course 1: "))
-course2 = int(input("Enter marks for course 2: "))
-course3 = int(input("Enter marks for course 3: "))
-course4 = int(input("Enter marks for course 4: "))
-course5 = int(input("Enter marks for course 5: "))
+course1 = int(input("course 1: "))
+course2 = int(input("course 2: "))
+course3 = int(input("course 3: "))
+course4 = int(input("course 4: "))
+course5 = int(input("course 5: "))
 
 # Calculate the total marks
 total_marks = course1 + course2 + course3 + course4 + course5
