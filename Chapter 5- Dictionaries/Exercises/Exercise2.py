@@ -20,5 +20,8 @@ glossary = {
 }
 
 # Print each word and its meaning with a newline character between them
-for term, meaning in glossary.items():
-    print(f"{term}:\n{meaning}\n")
+print("Variable:\n", glossary['Variable'],  "\n")
+print("Loop:\n", glossary['Loop'],  "\n")
+print("Function:\n", glossary['Function'],  "\n")
+print("Conditional Statement:\n", glossary['Conditional Statement'],  "\n")
+print("List:\n", glossary['List'],  "\n")
